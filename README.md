@@ -3,7 +3,7 @@
 #### Create a virtual environment
 
 ```bash
-py -m venv venv
+uv venv
 ```
 
 #### Activate the virtual environment
