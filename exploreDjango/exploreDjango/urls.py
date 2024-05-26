@@ -23,4 +23,6 @@ urlpatterns = [
     path('',views.home,name='home'),
     path('about/',views.about ,name='about'),
     path('ninja/', include('ninja.urls')),
+    
+    path('_reload_/', include('django_browser_reload.urls'))
 ]
